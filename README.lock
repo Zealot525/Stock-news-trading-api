@@ -1,0 +1,6 @@
+A program that uses 3 different api (twillio, alpha vantage, newsapi) to send a message based on the fluctations of the stock of my choosing. If there is a +-5% change in stock price compared to the previous day, an SMS will be sent using twillio regarding how much the price changed, as well as relevant news articles that describe what happened to the stock.
+
+API used:
+Twillio: https://www.twilio.com/docs
+Alpha Vantage: https://www.alphavantage.co/documentation/
+newsapi : https://newsapi.org/docs
